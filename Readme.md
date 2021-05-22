@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Виктория Емец](https://up.htmlacademy.ru/htmlcss/31/user/704597).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Котов](https://htmlacademy.ru/profile/eugene_kotov).
 
 ---
 

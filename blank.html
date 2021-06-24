@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="icon" href="favicon_32.ico"> <!-- это обязательный минимум для для домашнего задания. размер 32х32-->
+    <link rel="icon" href="img/favicons/favicon_152.svg" type="image/svg+xml">  <!-- это мы подключаем для более старых телефонов. размер 152х152-->
+    <link rel="apple-touch-icon" href="img/favicons/favicon_180.png"> <!-- это мы подключаем тоже для телефонов ранних версий, но которые понимают лучшее качество. размер 180х180-->
+    <link rel="manifest" href="manifest.webmanifest"> <!-- это мы подключаем для самых современных устройств.-->
   </head>
   <body>
 
     <header>
       <nav>
-        <a>
-          <img src="https://via.placeholder.com/150x100" width="50" hight="40" alt="Логотип магазина мороженого «Gllacy»">
+        <a href="index.html">
+          <img src="img/logo.svg" width="154" hight="64" alt="Логотип магазина мороженого «Gllacy»">
         </a>
         <ul>
           <li>
@@ -27,13 +31,13 @@
         </ul>
         <ul>
           <li>
-            <a href="blank.html">Поиск</a>
+            <a href="blank.html"><img src="img/seach.png" width="16" height="16" alt="Лупа - обозначение кнопки поиска"></a>
           </li>
           <li>
-            <a href="blank.html">Вход</a>
+            <a href="blank.html"><img src="img/login.png" width="20" height="19" alt="Знак входа - праваястрелка входит в контур квадрата">Вход</a>
           </li>
           <li>
-            <a href="blank.html">Корзина</a>
+            <a href="blank.html"><img src="img/full_cart.svg" width="21" height="20" alt="Контур тележки из супермаркета с красной серединой">2 товара</a>
           </li>
         </ul>
         <p>
@@ -61,17 +65,17 @@
       <section>
         <h2>Социальные сети</h2>
         <ul>
-          <li><a href="blank.html">Фейсбук</a></li>
-          <li><a href="blank.html">Вконтакте</a></li>
-          <li><a href="blank.html">Инстаграм</a></li>
-          <li><a href="blank.html">Твитер</a></li>
+          <li><a href="blank.html"><img src="img/social/facebook.svg" width="32" height="32" alt="Логотип социальной сети Facebook в белом круге"></a></li>
+          <li><a href="blank.html"><img src="img/social/Vk.svg" width="32" height="32" alt="Логотип социальной сети Вконтакте  белом круге"></a></li>
+          <li><a href="blank.html"><img src="img/social/instagram.svg" width="32" height="32" alt="Логотип социальной сети Instagram в белом круге"></a></li>
+          <li><a href="blank.html"><img src="img/social/twitter.svg" width="32" height="32" alt="Логотип социальной сети twitter в белом круге"></a></li>
         </ul>
       </section>
 
       <section>
         <h2>Документы</h2>
           <ul>
-            <li><a href="blank.html"><img src="https://via.placeholder.com/150x100" width="15" hight="7" alt="Серце">Для поставщиков</a></li>
+            <li><a href="blank.html"><img src="img/heart.png" width="15" hight="13" alt="Маленькое белое сердце">Для поставщиков</a></li>
             <li><a href="blank.html">О производстве</a></li>
             <li><a href="blank.html">Наши документы</a></li>
             <li><a href="blank.html">Экологические стандарты</a></li>
@@ -80,7 +84,7 @@
 
       <section>
         <h2>Разработчик</h2>
-        <a  href="https://htmlacademy.ru/intensive/htmlcss"><img src="https://via.placeholder.com/150x100" width="45" hight="30" alt="Логотип html academy"></a>
+        <a  href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo HTML Academy.svg" width="108" hight="31" alt="Логотип html academy"></a>
         <p>Сделано в <a  href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2021</p>
       </section>
     </footer>
@@ -109,14 +113,14 @@
       <h2>Корзина</h2>
       <ul>
         <li>
-          <button type="button">Удалить</button>
-          <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Пломбир с апельсиновым джемом">
+          <button type="button"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
+          <img src="img/products/icecream_1.jpg" width="33" hight="33" alt="Белое мороженое с оранжевыми полосами">
           <span>Пломбир с апельсиновым джемом</span>
           <span>1,5кг х <span class="price">200 руб.</span></span> <span class="cost">300 руб.</span>
          </li>
         <li>
-          <button type="button">Удалить</button>
-          <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Клубничный пломбир с присыпкой из белого шоколада">
+          <button type="button"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
+          <img src="img/products/icecream_2.jpg" width="33" hight="33" alt="Коричневое мороженое с шоколадной присыпкой">
           <span>Клубничный пломбир с присыпкой из белого шоколада</span>
           <span>1,5кг х <span class="price">300 руб.</span></span> <span class="cost">450 руб.</span>
         </li>
@@ -125,6 +129,6 @@
         Итого: <span>750 руб.</span>
       </p>
       <a href="blank.html">Оформить заказ</a>
-    </section> 
+    </section>
 </body>
 </html>

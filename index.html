@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="icon" href="favicon_32.ico"> <!-- это обязательный минимум для для домашнего задания. размер 32х32-->
+    <link rel="icon" href="img/favicons/favicon_152.svg" type="image/svg+xml">  <!-- это мы подключаем для более старых телефонов. размер 152х152-->
+    <link rel="apple-touch-icon" href="img/favicons/favicon_180.png"> <!-- это мы подключаем тоже для телефонов ранних версий, но которые понимают лучшее качество. размер 180х180-->
+    <link rel="manifest" href="manifest.webmanifest"> <!-- это мы подключаем для самых современных устройств.-->
   </head>
   <body>
 
     <header>
       <nav>
         <a>
-          <img src="https://via.placeholder.com/150x100" width="50" hight="40" alt="Логотип магазина мороженого «Gllacy»">
+          <img src="img/logo.svg" width="154" hight="64" alt="Логотип магазина мороженого «Gllacy»">
         </a>
         <ul>
           <li>
@@ -27,13 +31,13 @@
         </ul>
         <ul>
           <li>
-            <a href="blank.html">Поиск</a>
+            <a href="blank.html"><img src="img/seach.png" width="16" height="16" alt="Лупа - обозначение кнопки поиска"></a>
           </li>
           <li>
-            <a href="blank.html">Вход</a>
+            <a href="blank.html"><img src="img/login.png" width="20" height="19" alt="Знак входа - праваястрелка входит в контур квадрата">Вход</a>
           </li>
           <li>
-            <a href="blank.html">Корзина</a>
+            <a href="blank.html"><img src="img/empty_cart.png" width="21" height="20" alt="Контур тележки из супермаркета">Пусто</a>
           </li>
         </ul>
         <p>
@@ -49,17 +53,22 @@
         <h2>Слайдер</h2>
         <section id="slide_1">
           <h3>Пломбир с помадкой и клубничный щербет</h3>
-          <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Пломбир с помадкой и клубничный щербет">
+          <img src="img/slider/2 icecream for brown.png" width="647" hight="584" alt="Рожок белого мороженого пломбир с шоколадной помадкой и рожок розового мороженого клубничный щербет">
+          <img src="img/slider/lighting_brown.png" width="716" hight="716">
           <button type="button">Давайте оба!</button>
         </section>
         <section id="slide_2">
           <h3>Шоколадный пломбир и лимонный сорбет</h3>
-          <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Шоколадный пломбир и лимонный сорбет">
+          <img src="img/slider/2 icecream for blue.png" width="647" hight="584" alt="Рожок коричневого, с шоколадными вкраплениями,
+           мороженого шоколадный пломбир и рожок белого, с оранжевыми вкраплениями, мороженого лимонный сорбет">
+          <img src="img/slider/lighting_blue.png" width="716" hight="716">
           <button type="button">Давайте оба!</button>
         </section>
         <section id="slide_3">
           <h3>Крем-брюле и пломбир с малиновым джемом</h3>
-          <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Крем-брюле и пломбир с малиновым джемом">
+          <img src="img/slider/2 icecream for green.png" width="647" hight="584" alt="Рожок кремового, с коричневыми полосами,
+          мороженого крем-брюле и рожок белого, с розовыми полосами, мороженого пломбир с малиновым джемом">
+          <img src="img/slider/lighting_green.png" width="716" hight="716">
           <button type="button">Давайте оба!</button>
         </section>
         <a href="#slide_1"><img src="https://via.placeholder.com/150x100" width="15" hight="10" alt="переключатель слайда"></a>
@@ -74,12 +83,16 @@
             <a>
               <h3>Малинка даром!</h3>
               <p>При покупке 2 кг любого фруктового мороженого, добавим<br> в ваш заказ банку малинового варенья бесплатно.</p>
+              <img src="img/baners/baner_1_raspberry.jpg" width="560" hight="229" alt="Фон заполнен ягодами малины">
             </a>  
             <button type="button">Хочу варенье!</button>
           </li>
           <li>
-            <h3>Шоколадки даром!</h3>
-            <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку<br> вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+            <a>
+              <h3>Шоколадки даром!</h3>
+              <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку<br> вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+              <img src="img/baners/baner_2_chocolate.jpg" width="560" hight="229" alt="Фон заполнен шоколадной стружкой">
+            </a>
             <button type="button">Хочу шоколадки!</button>
           </li>
         </ul>
@@ -89,34 +102,34 @@
         <h2>Хит продаж</h2>
         <ul>
           <li>
-            <a href="blank.html">
+            <a href="catalog.html">
               <h3>Сливочное с апельсиновым<br> джемом и цитрусовой стружкой</h3>
-              <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="ХИТ">
+              <img src="img/top.png" width="34" hight="27" alt="Хит - обозначение того, что продукт является одним из самых продаваемых">
+              <img src="img/products/icecream_1.jpg" width="267" hight="267" alt="Белое мороженое с оранжевыми полосами">
               <p>310 ₽<span> /кг</span></p>
             </a>    
           </li>
           <li>
-            <a href="blank.html">
+            <a href="catalog.html">
               <h3>Сливочно-кофейное с кусочками<br> шоколада</h3>
-              <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Сливочно-кофейное с кусочками шоколада">
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="ХИТ">
+              <img src="img/top.png" width="34" hight="27" alt="Хит - обозначение того, что продукт является одним из самых продаваемых">
+              <img src="img/products/icecream_2.jpg" width="267" hight="267" alt="Коричневое мороженое с шоколадной присыпкой">
               <p>380 ₽<span> /кг</span></p>
             </a> 
           </li>
           <li>
-            <a href="blank.html">
+            <a href="catalog.html">
               <h3>Сливочно-клубничное<br> с присыпкой из белого шоколада</h3>
-              <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Сливочно-клубничное с присыпкой из белого шоколада">
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="ХИТ">
+              <img src="img/top.png" width="34" hight="27" alt="Хит - обозначение того, что продукт является одним из самых продаваемых">
+              <img src="img/products/icecream_3.jpg" width="267" hight="267" alt="Розовое мороженое с присыпкой из белого шоколада ввиде сердечек">
               <p>355 ₽<span> /кг</span></p>
             </a> 
           </li>
           <li>
-            <a href="blank.html">
+            <a href="catalog.html">
               <h3>Сливочное крем-брюле<br> с карамельной подливкой</h3>
-              <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Сливочное крем-брюле с карамельной подливкой ">
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="ХИТ">
+              <img src="img/top.png" width="34" hight="27" alt="Хит - обозначение того, что продукт является одним из самых продаваемых">
+              <img src="img/products/icecream_4.jpg" width="267" hight="267" alt="Мороженоое сливочного цвета с вкраплениями карамельного цвета">
               <p>415 ₽<span> /кг</span></p>
             </a> 
           </li>
@@ -130,19 +143,19 @@
           <h3>Преимущества</h3>
           <ul>
             <li>
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Мороженое">
+              <img src="img/for_advantages/for_advantages_icecream.png" width="16" hight="32" alt="Контур рожка мороженого">
               <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
             </li>
             <li>
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Корова">
+              <img src="img/for_advantages/for_advantages_ cow.png" width="24" height="24" alt="Контур головы коровы">
               <p>Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p> 
             </li>
             <li>
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Лист">
+              <img src="img/for_advantages/for_advantages_ leaf.png" width="16" height="27" alt="Контур листа">
               <p>Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья</p>
             </li>
             <li>
-              <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Градусник">
+              <img src="img/for_advantages/for_advantages_thermometer.png" width="16" height="26"alt="Контур градусника">
               <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
             </li>
           </ul>
@@ -154,7 +167,7 @@
         <p>Новое в нашем блоге</p>
         <a href="blank.html">
           10 способов сервировки фруктовых щербетов к столу 
-          <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Щербет">
+          <img src="img/background_for_news.jpg" width="560" hight="220" alt="Шарики розового мороженого с дольками клубники и листиками мяты">
         </a>
       </section>
 
@@ -165,11 +178,14 @@
           <input type="email" name="email" placeholder="email@example.com">
           <button type="submit">Отправить</button>
         </form>
+        <img src="img/post_background.png" width="560" height="220" alt="Белый фон заполнен красными и синими косыми полосками поочередно">
+      </section>
       </section>
 
       <section>
         <h2>Адрес</h2>
-        <img src="https://via.placeholder.com/150x100" width="150" hight="100" alt="Карта">
+        <img src="img/map.jpg" width="1200" hight="430" alt="Часть карты Санкт-Петербурга, на которой отмечено расположение магазина Gllacy">
+        <img src="img/pin.svg" width="80" height="140" alt="значек мороженого указывает на тоный адресс магазина Gllacy на карте">
         <section>
           <p>Адрес главного офиса и офлайн-магазина:<br>
           <strong>наб. Реки Карповки, 5 лит П, Санкт-Петербург</strong>
@@ -188,17 +204,17 @@
       <section>
         <h2>Социальные сети</h2>
         <ul>
-          <li><a href="blank.html">Фейсбук</a></li>
-          <li><a href="blank.html">Вконтакте</a></li>
-          <li><a href="blank.html">Инстаграм</a></li>
-          <li><a href="blank.html">Твитер</a></li>
+          <li><a href="blank.html"><img src="img/social/facebook.svg" width="32" height="32" alt="Логотип социальной сети Facebook в белом круге"></a></li>
+          <li><a href="blank.html"><img src="img/social/Vk.svg" width="32" height="32" alt="Логотип социальной сети Вконтакте  белом круге"></a></li>
+          <li><a href="blank.html"><img src="img/social/instagram.svg" width="32" height="32" alt="Логотип социальной сети Instagram в белом круге"></a></li>
+          <li><a href="blank.html"><img src="img/social/twitter.svg" width="32" height="32" alt="Логотип социальной сети twitter в белом круге"></a></li>
         </ul>
       </section>
 
       <section>
         <h2>Документы</h2>
           <ul>
-            <li><a href="blank.html"><img src="https://via.placeholder.com/150x100" width="15" hight="7" alt="Серце">Для поставщиков</a></li>
+            <li><a href="blank.html"><img src="img/heart.png" width="15" hight="13" alt="Маленькое белое сердце">Для поставщиков</a></li>
             <li><a href="blank.html">О производстве</a></li>
             <li><a href="blank.html">Наши документы</a></li>
             <li><a href="blank.html">Экологические стандарты</a></li>
@@ -207,7 +223,7 @@
 
       <section>
         <h2>Разработчик</h2>
-        <a  href="https://htmlacademy.ru/intensive/htmlcss"><img src="https://via.placeholder.com/150x100" width="45" hight="30" alt="Логотип html academy"></a>
+        <a  href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo HTML Academy.svg" width="108" hight="31" alt="Логотип html academy"></a>
         <p>Сделано в <a  href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2021</p>
       </section>
     </footer>
@@ -240,21 +256,21 @@
         <input type="text" name="messenge" placeholder="В свободной форме">
         <button type="submit">Отправить</button>
       </form>
-      <button type="button">Закрыть</button>
+      <button type="button"><img src="img/x.png" width="18" height="17" alt="Кнопка закрыть"></button>
     </section>
 
     <section>
       <h2>Корзина</h2>
       <ul>
         <li>
-          <button type="button">Удалить</button>
-          <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Пломбир с апельсиновым джемом">
+          <button type="button"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
+          <img src="img/products/icecream_1.jpg" width="33" hight="33" alt="Белое мороженое с оранжевыми полосами">
           <span>Пломбир с апельсиновым джемом</span>
           <span>1,5кг х <span class="price">200 руб.</span></span> <span class="cost">300 руб.</span>
          </li>
         <li>
-          <button type="button">Удалить</button>
-          <img src="https://via.placeholder.com/150x100" width="40" hight="30" alt="Клубничный пломбир с присыпкой из белого шоколада">
+          <button type="button"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
+          <img src="img/products/icecream_2.jpg" width="33" hight="33" alt="Коричневое мороженое с шоколадной присыпкой">
           <span>Клубничный пломбир с присыпкой из белого шоколада</span>
           <span>1,5кг х <span class="price">300 руб.</span></span> <span class="cost">450 руб.</span>
         </li>
@@ -264,6 +280,5 @@
       </p>
       <a href="blank.html">Оформить заказ</a>
     </section>
-
   </body>
 </html>

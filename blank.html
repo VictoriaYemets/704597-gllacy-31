@@ -1,134 +1,166 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-    <link rel="icon" href="favicon_32.ico"> <!-- это обязательный минимум для для домашнего задания. размер 32х32-->
-    <link rel="icon" href="img/favicons/favicon_152.svg" type="image/svg+xml">  <!-- это мы подключаем для более старых телефонов. размер 152х152-->
-    <link rel="apple-touch-icon" href="img/favicons/favicon_180.png"> <!-- это мы подключаем тоже для телефонов ранних версий, но которые понимают лучшее качество. размер 180х180-->
-    <link rel="manifest" href="manifest.webmanifest"> <!-- это мы подключаем для самых современных устройств.-->
-  </head>
-  <body>
 
-    <header>
-      <nav>
-        <a href="index.html">
-          <img src="img/logo.svg" width="154" hight="64" alt="Логотип магазина мороженого «Gllacy»">
-        </a>
-        <ul>
-          <li>
-            Каталог
-            <ul>
-              <li>Новинки</li>
-              <li><a href="catalog.html">Сливочное</a></li>
-              <li>Щербеты</li>
-              <li>Фруктовый лед</li>
-              <li>Мелроин</li>
-            </ul>
-          </li>
-          <li>Доставка и оплата</li>
-          <li>О компании</li>
-        </ul>
-        <ul>
-          <li>
-            <a href="blank.html"><img src="img/seach.png" width="16" height="16" alt="Лупа - обозначение кнопки поиска"></a>
-          </li>
-          <li>
-            <a href="blank.html"><img src="img/login.png" width="20" height="19" alt="Знак входа - праваястрелка входит в контур квадрата">Вход</a>
-          </li>
-          <li>
-            <a href="blank.html"><img src="img/full_cart.svg" width="21" height="20" alt="Контур тележки из супермаркета с красной серединой">2 товара</a>
-          </li>
-        </ul>
-        <p>
-          с 10 до 20, ежедневно<br>
-          <a href="tel:88124502525">8 812 450-25-25</a>
-        </p>
-      </nav>  
-    </header>
-    <main>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-        <p><strong>Эта страница находится в разработке. Приносим извинения за неудобства.</strong></p>
-      <br>  
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-    </main>
-    <footer>
-      <section>
-        <h2>Социальные сети</h2>
-        <ul>
-          <li><a href="blank.html"><img src="img/social/facebook.svg" width="32" height="32" alt="Логотип социальной сети Facebook в белом круге"></a></li>
-          <li><a href="blank.html"><img src="img/social/Vk.svg" width="32" height="32" alt="Логотип социальной сети Вконтакте  белом круге"></a></li>
-          <li><a href="blank.html"><img src="img/social/instagram.svg" width="32" height="32" alt="Логотип социальной сети Instagram в белом круге"></a></li>
-          <li><a href="blank.html"><img src="img/social/twitter.svg" width="32" height="32" alt="Логотип социальной сети twitter в белом круге"></a></li>
-        </ul>
-      </section>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Глейси</title>
+  <link rel="icon" href="favicon_32.ico"> <!-- это обязательный минимум для для домашнего задания. размер 32х32-->
 
-      <section>
-        <h2>Документы</h2>
-          <ul>
-            <li><a href="blank.html"><img src="img/heart.png" width="15" hight="13" alt="Маленькое белое сердце">Для поставщиков</a></li>
-            <li><a href="blank.html">О производстве</a></li>
-            <li><a href="blank.html">Наши документы</a></li>
-            <li><a href="blank.html">Экологические стандарты</a></li>
+  <link rel="icon" href="img/favicons/favicon_152.svg" type="image/svg+xml">
+  <!-- это мы подключаем для более старых телефонов. размер 152х152-->
+
+  <link rel="apple-touch-icon" href="img/favicons/favicon_180.png">
+  <!-- это мы подключаем тоже для телефонов ранних версий, но которые понимают лучшее качество. размер 180х180-->
+
+  <link rel="manifest" href="manifest.webmanifest"> <!-- это мы подключаем для самых современных устройств.-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">
+        <img src="img/logo.svg" width="154" hight="64" alt="Логотип магазина мороженого «Gllacy»">
+      </a>
+      <ul class="mainMenu">
+        <li>
+          <a href="#">Каталог</a>
+          <ul class="dropMenu">
+            <li class="importantDropMenuItem"><a href="#">Новинки</a></li>
+            <li><a href="catalog.html">Сливочное</a></li>
+            <li><a href="#">Щербеты</a></li>
+            <li><a href="#">Фруктовый лед</a></li>
+            <li><a href="#">Мелорин</a></li>
           </ul>
-      </section>
-
-      <section>
-        <h2>Разработчик</h2>
-        <a  href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo HTML Academy.svg" width="108" hight="31" alt="Логотип html academy"></a>
-        <p>Сделано в <a  href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2021</p>
-      </section>
-    </footer>
-
-    <section>
-      <h2>Вход</h2>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <input type="email" name="login" placeholder="email@example.com"><br>
-        <input type="password" name="password" placeholder="••••••••">
-        <button type="submit">Войти</button>
-      </form>
-      <ul>
-        <li><a href="blank.html">Забыли пароль?</a></li>
-        <li><a href="blank.html">Новая регистрация</a></li>
+        </li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">О компании</a></li>
       </ul>
-    </section>
-
-    <section>
-      <h2>Поиск</h2>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <input type="text" name="search" placeholder="Крем-брюле">
-      </form>
-    </section>
-
-    <section>
-      <h2>Корзина</h2>
-      <ul>
-        <li>
-          <button type="button"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
-          <img src="img/products/icecream_1.jpg" width="33" hight="33" alt="Белое мороженое с оранжевыми полосами">
-          <span>Пломбир с апельсиновым джемом</span>
-          <span>1,5кг х <span class="price">200 руб.</span></span> <span class="cost">300 руб.</span>
-         </li>
-        <li>
-          <button type="button"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
-          <img src="img/products/icecream_2.jpg" width="33" hight="33" alt="Коричневое мороженое с шоколадной присыпкой">
-          <span>Клубничный пломбир с присыпкой из белого шоколада</span>
-          <span>1,5кг х <span class="price">300 руб.</span></span> <span class="cost">450 руб.</span>
+      <ul class="additionallyMenu">
+        <li class="seach">
+          <a href="blank.html"><img class="seachPeace" src="img/seach.png" width="32" height="32"
+              alt="Лупа - обозначение кнопки поиска"><img class="seachHover" src="img/seach-hover.png" width="32" height="32"
+              alt="Лупа - обозначение кнопки поиска при наведении курсором мышки"></a>
+        </li>
+        <li class="login">
+          <a href="blank.html"><img class="loginPeace" src="img/login.png" width="20" height="19"
+              alt="Знак входа - правая стрелка входит в контур квадрата"><img class="loginHover" src="img/login_hover.png" width="20" height="19"
+              alt="Знак входа - правая стрелка входит в контур квадрата">Вход</a>
+        </li>
+        <li class="cart withProducts">
+          <a href="blank.html"class="emptyCart"><img src="img/empty_cart.png" width="21" height="20"
+              alt="Контур тележки из супермаркета">Пусто</a>
+          <a href="blank.html" class="fullCart"><img src="img/full_cart.svg" width="21" height="20"
+              alt="Контур тележки из супермаркета">2 товара</a>
         </li>
       </ul>
-      <p>
-        Итого: <span>750 руб.</span>
+      <p class="phone">
+        с 10 до 20, ежедневно<br>
+        <a href="tel:88124502525">8 812 450-25-25</a>
       </p>
-      <a href="blank.html">Оформить заказ</a>
+    </nav>
+  </header>
+  <main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p><strong>Эта страница находится в разработке. Приносим извинения за неудобства.</strong></p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </main>
+  <footer>
+    <section class="social">
+      <h2>Социальные сети</h2>
+      <ul class="socialItems">
+        <li><a href="blank.html""><img class="facebook" src="img/social/facebook.svg" width="32" height="32"
+              alt="Логотип социальной сети Facebook в белом круге"><img class="facebookHover" src="img/social/facebookHover.svg" width="32" height="32"
+              alt="Логотип социальной сети Facebook в белом круге"></a></li>
+        <li><a href="blank.html"><img class="Vk" src="img/social/Vk.svg" width="32" height="32"
+              alt="Логотип социальной сети Вконтакте  белом круге"><img class="VkHover" src="img/social/VkHover.svg" width="32" height="32"
+              alt="Логотип социальной сети Вконтакте  белом круге"></a></li>
+        <li><a href="blank.html"><img class="insta" src="img/social/instagram.svg" width="32" height="32"
+              alt="Логотип социальной сети Instagram в белом круге"><img class="instaHover" src="img/social/instagramHover.svg" width="32" height="32"
+              alt="Логотип социальной сети Instagram в белом круге"></a></li>
+        <li><a href="blank.html"><img class="twitter" src="img/social/twitter.svg" width="32" height="32"
+              alt="Логотип социальной сети twitter в белом круге"><img class="twitterHover" src="img/social/twitterHover.svg" width="32" height="32"
+              alt="Логотип социальной сети twitter в белом круге"></a></li>
+      </ul>
     </section>
+
+    <section class="documents">
+      <h2>Документы</h2>
+      <ul>
+        <li><a class="typicalWhiteLink suppliers" href="blank.html"><img src="img/heart.png" width="15" hight="13" alt="Маленькое белое сердце">Для
+            поставщиков</a></li>
+        <li><a class="typicalWhiteLink" href="blank.html">О производстве</a></li>
+        <li><a class="typicalWhiteLink" href="blank.html">Наши документы</a></li>
+        <li><a class="typicalWhiteLink" href="blank.html">Экологические стандарты</a></li>
+      </ul>
+    </section>
+
+    <section class="developer">
+      <h2>Разработчик</h2>
+      <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo HTML Academy.svg" width="108" hight="31"
+          alt="Логотип html academy"></a>
+      <p>Сделано в <a class="typicalWhiteLink" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2021</p>
+    </section>
+  </footer>
+
+
+  <section class="loginForm">
+    <h2>Вход</h2>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <input type="email" name="login" placeholder="email@example.com" class="inputTextStyle"><br>
+      <input type="password" name="password" placeholder="••••••••" class="inputTextStyle">
+      <button class="buttonWihtTextShadow" type="submit">Войти</button>
+    </form>
+    <ul>
+      <li><a class="typicalBlackLink" href="blank.html">Забыли пароль?</a></li>
+      <li><a class="typicalBlackLink" href="blank.html">Новая регистрация</a></li>
+    </ul>
+  </section>
+
+  <section class="seachForm">
+    <h2>Поиск</h2>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <input type="text" name="search" placeholder="Крем-брюле" class="inputTextStyle">
+    </form>
+  </section>
+
+  <section class="cartForm">
+    <h2>Корзина</h2>
+    <ul class="cartProducts">
+      <li>
+        <button type="button" class="buttonClose"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
+        <a href="blank.html">
+          <img src="img/products/icecream_1.jpg" width="33" hight="33" alt="Белое мороженое с оранжевыми полосами">
+          <span class="productName typicalBlackLink">Пломбир с апельсиновым джемом</span>
+          <span>1,5кг х <span class="price">200 руб.</span></span> <span class="cost">300 руб.</span>
+        </a>
+      </li>
+      <li>
+        <button type="button" class="buttonClose"><img src="img/x.png" width="11" height="11" alt="Кнопка закрыть"></button>
+        <a href="blank.html">
+          <img src="img/products/icecream_2.jpg" width="33" hight="33" alt="Коричневое мороженое с шоколадной присыпкой">
+          <span class="productName typicalBlackLink">Клубничный пломбир с присыпкой из белого шоколада</span>
+          <span>1,5кг х <span class="price">300 руб.</span></span> <span class="cost">450 руб.</span>
+        </a>
+      </li>
+    </ul>
+    <p class="finalCost">
+      Итого: <span>750 руб.</span>
+    </p>
+    <a href="blank.html" class="buttonWihtTextShadow">Оформить заказ</a>
+  </section>
 </body>
 </html>
